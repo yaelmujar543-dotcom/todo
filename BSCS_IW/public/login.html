@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  <link rel="stylesheet" href="assets/css/design.css">
+ 
+</head>
+<body>
+  <section class="Course-header">
+    <nav>
+      <a href="index.html"><img src="assets/img/730420763_122133722079010952_6314985975533960392_n.jpg" alt="Logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="Course_1.html">Course</a></li>
+          <li><a href="Gallery.html">Gallery</a></li>
+          <li><a href="Event.html">Events</a></li>
+          <li><a href="About.html">About</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>REGISTER HERE</h1>
+    </div>
+  </section>
+
+ <div class="katawan">
+  <div class="container_signup">
+    <div class="container_sigup-main">
+      <div class="discription_2">
+        <p class="CA">Log in to CSI</p>
+        <p class="HA">New to CSI?</p>
+        <a href="Signup_1.html">Sign Up</a>
+      </div>
+
+      <div class="main">
+        <div class="fillup">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="you@example.com">
+        </div>
+
+        <div class="fillup">
+          <label for="password">Password</label>
+          <div class="password-wrap">
+            <input type="password" id="password" placeholder="At least 8 characters">
+            <i class="fa-solid fa-eye" id="togglePassword"></i>
+          </div>
+        </div>
+
+        <p id="message"></p>
+
+        <div class="LOG">
+          <button type="button" id="loginBtn">Log in</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/scripts.js"></script>
+
+</body>
+</html>

@@ -75,7 +75,6 @@ togglePassword.addEventListener("click", function () {
   }
 });
 
-
 loginBtn.addEventListener("click", function () {
   const email = emailInput.value.trim();
   const password = passwordInput.value;
